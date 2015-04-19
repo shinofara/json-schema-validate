@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/hyper-schema",
+    "title": "サンプル",
+    "type": [
+        "object"
+    ],
+    "properties": {
+        "name" : {
+            "type": "string"
+        },
+        "age": {
+            "type": "integer"
+        },
+        "status": {
+            "type": "string",
+            "enum": ["a", "b", "c"]
+        }
+    },
+    "required": [
+        "name", "age"
+    ]
+}
